@@ -1,0 +1,76 @@
+.title {
+    font-size: 23px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 45%;
+
+}
+
+.daily-item {
+    background-color: #faf2f2;
+    border-radius: 15px;
+    height: 40px;
+    margin: 12px auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    width: 70%;
+}
+
+.icon-small {
+    width: 40px;
+    animation: jackInTheBox;
+    animation-duration: 10s;
+}
+
+.day {
+    color: rgb(25, 39, 39);
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+
+}
+
+.description {
+
+    flex: 1 1;
+    margin-right: 30px;
+    text-align: right;
+
+}
+
+.min-max {
+    color: rgb(122, 108, 108);
+    margin-right: 10px;
+}
+
+.daily-details-grid {
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    row-gap: 0;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+
+}
+
+.daily-details-grid-item {
+
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daily-details-grid-item label:first-child {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.daily-details-grid-item label:last-child {
+    color: #1d0120;
+}
